@@ -305,7 +305,9 @@ class PdoGsb{
 		$laLigne = $res->fetch();
 		if($laLigne){
 			$ok = true;
+			echo 'truue';
 		}
+		echo $ok.'okkkk';
 		return $ok;
 	}
 	

@@ -321,7 +321,7 @@ class ValiderFicheFraisControleur {
 						require_once __DIR__.'/../vues/v_pied.php';
 					}
 			 }
-			}
+			}			
             require_once __DIR__.'/../vues/v_listeFiche.php';
 			//On affiche le tableau des frais seulement si la fiche existe et que son état est 'Cloturé'
 			if(isset ($etatCloture) && ($etatCloture))
